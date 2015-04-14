@@ -8,7 +8,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 
 
-public class Specie implements Serializable, ISpecie {
+public class Specie extends UnicastRemoteObject implements ISpecie {
 
 	public String name;
 	public int lifeTime;
